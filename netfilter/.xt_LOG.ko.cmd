@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_LOG.ko := /root/goldfish/prebuilt/linux-x86/toolchain/i686-android-linux-4.4.3/bin/i686-android-linux-ld -r -m elf_i386 -T /root/goldfish/scripts/module-common.lds --build-id  -o net/netfilter/xt_LOG.ko net/netfilter/xt_LOG.o net/netfilter/xt_LOG.mod.o

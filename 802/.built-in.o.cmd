@@ -1,0 +1,1 @@
+cmd_net/802/built-in.o :=  /root/goldfish/prebuilt/linux-x86/toolchain/i686-android-linux-4.4.3/bin/i686-android-linux-ld -m elf_i386   -r -o net/802/built-in.o net/802/p8022.o net/802/psnap.o net/802/tr.o net/802/fddi.o 

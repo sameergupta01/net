@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/nf_defrag_ipv6.o := /root/goldfish/prebuilt/linux-x86/toolchain/i686-android-linux-4.4.3/bin/i686-android-linux-ld -m elf_i386   -r -o net/ipv6/netfilter/nf_defrag_ipv6.o net/ipv6/netfilter/nf_defrag_ipv6_hooks.o net/ipv6/netfilter/nf_conntrack_reasm.o 

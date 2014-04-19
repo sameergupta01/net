@@ -1,0 +1,1 @@
+cmd_net/netfilter/netfilter.o := /root/goldfish/prebuilt/linux-x86/toolchain/i686-android-linux-4.4.3/bin/i686-android-linux-ld -m elf_i386   -r -o net/netfilter/netfilter.o net/netfilter/core.o net/netfilter/nf_log.o net/netfilter/nf_queue.o net/netfilter/nf_sockopt.o 

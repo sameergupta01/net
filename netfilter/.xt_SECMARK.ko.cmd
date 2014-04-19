@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_SECMARK.ko := /root/goldfish/prebuilt/linux-x86/toolchain/i686-android-linux-4.4.3/bin/i686-android-linux-ld -r -m elf_i386 -T /root/goldfish/scripts/module-common.lds --build-id  -o net/netfilter/xt_SECMARK.ko net/netfilter/xt_SECMARK.o net/netfilter/xt_SECMARK.mod.o

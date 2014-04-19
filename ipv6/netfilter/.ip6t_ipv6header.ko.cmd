@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6t_ipv6header.ko := /root/goldfish/prebuilt/linux-x86/toolchain/i686-android-linux-4.4.3/bin/i686-android-linux-ld -r -m elf_i386 -T /root/goldfish/scripts/module-common.lds --build-id  -o net/ipv6/netfilter/ip6t_ipv6header.ko net/ipv6/netfilter/ip6t_ipv6header.o net/ipv6/netfilter/ip6t_ipv6header.mod.o
